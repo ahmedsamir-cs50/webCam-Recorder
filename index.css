@@ -1,0 +1,33 @@
+.wrapper{
+    width:50%;
+}
+.buttons{
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+}
+button{
+    margin: 6px 15px 6px 15px;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    border: none;
+    background-color: black;
+    color: bisque;
+    border-radius: 10px;
+}
+button:first-child{
+    background-color: red;
+}
+video{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+body{
+    background-color: rgb(239, 228, 235);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
